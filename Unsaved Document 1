@@ -1,0 +1,29 @@
+make folder => mkdir laravel
+
+To install php => sudo apt install php php-cli php-mbstring php-xml php-bcmath php-curl unzip -y
+
+find php version => php -v
+
+To install composer => sudo apt install composer -y
+
+FInd composer version => composer -V
+
+TO in set gobal composer => composer global require laravel/installer
+
+create project => laravel new blog
+
+install node => apt install note
+
+nope install and setup => npm install && npm run build
+
+run project => composer run dev
+
+migrate  database => php artisan migrate
+
+create controller =>php artisan make:controller controllerNmae
+
+create model => php artisan nake:model ModelNmae
+
+create table => php artisan make:migration migration_File_name --create = post 
+
+create tinker shell => php artisan tinker
